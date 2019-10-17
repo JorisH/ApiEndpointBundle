@@ -1,0 +1,19 @@
+{
+  "name": "tactics/api-endpoint-bundle",
+  "description": "Sf2 API endpoint bundle example",
+  "keywords": ["api", "endpoint", "bundle"],
+  "type": "library",
+  "license": "",
+  "authors": [{
+    "name": "Joris Hontelé",
+    "email": "joris.hontele@tactics.be"
+  }],
+  "require": {
+    "symfony/symfony": "^2.8"
+  },
+  "autoload": {
+    "psr-4": { "Tactics\\ApiEndpointBundle": "" }
+  },
+  "target-dir": "Tactics/ApiEndpointBundle",
+  "minimum-stability": "dev"
+}
